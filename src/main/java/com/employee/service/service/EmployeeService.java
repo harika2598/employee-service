@@ -11,6 +11,6 @@ public class EmployeeService {
     EmployeeDao dao;
 
     public Employee getEmpDetailsById(int empId){
-        return dao.findOne(empId);
+        return dao.getOne(empId);
     }
 }
